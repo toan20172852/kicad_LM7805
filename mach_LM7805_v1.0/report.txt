@@ -1,0 +1,65 @@
+Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.00mm'.
+Info: Processing symbol 'C2:Capacitor_THT:CP_Radial_D5.0mm_P2.00mm'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'RV1:Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal'.
+Info: Processing symbol 'U1:Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown'.
+Updated C1 symbol association from  to /d590b771-c4dc-4592-9f3a-1ea249e9388d.
+Updated C1 properties.
+Add net Net-(J1-Pin_1).
+Connected C1 pin 1 to Net-(J1-Pin_1).
+Add net GND.
+Connected C1 pin 2 to GND.
+Added C2 (footprint 'Capacitor_THT:CP_Radial_D5.0mm_P2.00mm').
+Changed REF** reference designator to C2.
+Changed C2 value from CP_Radial_D5.0mm_P2.00mm to 0.1uF.
+Updated C2 symbol association from  to /d01f5a41-3599-438f-bdf2-c5869c15b1e6.
+Updated C2 properties.
+Add net Net-(J2-Pin_2).
+Connected C2 pin 1 to Net-(J2-Pin_2).
+Connected C2 pin 2 to GND.
+Added J1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Changed REF** reference designator to J1.
+Changed J1 value from PinHeader_1x02_P2.54mm_Vertical to INPUT.
+Updated J1 symbol association from  to /5e519472-8dc9-4092-9e8c-baeb152b67ac.
+Updated J1 properties.
+Connected J1 pin 1 to Net-(J1-Pin_1).
+Connected J1 pin 2 to GND.
+Added J2 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Changed REF** reference designator to J2.
+Changed J2 value from PinHeader_1x02_P2.54mm_Vertical to OUTPUT.
+Updated J2 symbol association from  to /4ab82c9e-97a8-4b9d-bd1b-ee0842c976c2.
+Updated J2 properties.
+Connected J2 pin 1 to GND.
+Connected J2 pin 2 to Net-(J2-Pin_2).
+Added C1 (footprint 'Capacitor_THT:CP_Radial_D5.0mm_P2.00mm').
+Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal to 10k.
+Updated R1 symbol association from  to /afd94731-6a6e-4680-9f07-d178f1a71a16.
+Updated R1 properties.
+Connected R1 pin 1 to Net-(J2-Pin_2).
+Add net Net-(U1-GND).
+Connected R1 pin 2 to Net-(U1-GND).
+Changed REF** reference designator to C1.
+Added RV1 (footprint 'Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal').
+Changed REF** reference designator to RV1.
+Changed RV1 value from Potentiometer_Piher_T-16H_Single_Horizontal to 10k.
+Updated RV1 symbol association from  to /b149e72a-166a-4ccf-9f71-44269e310786.
+Updated RV1 properties.
+Connected RV1 pin 1 to GND.
+Connected RV1 pin 2 to GND.
+Connected RV1 pin 3 to Net-(U1-GND).
+Changed C1 value from CP_Radial_D5.0mm_P2.00mm to 0.33uF.
+Added U1 (footprint 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown').
+Changed REF** reference designator to U1.
+Changed U1 value from TO-220-3_Horizontal_TabDown to LM7805.
+Updated U1 symbol association from  to /795fb26d-13e0-4027-92ab-89f5f74f05da.
+Updated U1 properties.
+Connected U1 pin 1 to Net-(J1-Pin_1).
+Connected U1 pin 2 to Net-(U1-GND).
+Connected U1 pin 3 to Net-(J2-Pin_2).
+
+
+Info: Total warnings: 0, errors: 0.
